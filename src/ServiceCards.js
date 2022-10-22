@@ -1,38 +1,54 @@
-import './index.css';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
-export default function ServiceCards(){
-    return(
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <i class="fa-solid fa-house-lock card-img-top card-logo"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Residential</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                </div>
-            </div>
+import car from './images/car-solid.svg';
+import house from './images/house.svg';
+import building from './images/building.svg';
 
-            <div class="col">
-                <div class="card h-100">
-                    <i class="fa-solid fa-car card-img-top card-logo"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Automotive</h5>
-                        <p class="card-text">This is a short card.</p>
-                    </div>
-                </div>
-            </div>
+export default function ServiceCards() {
+  return (
+    <CardGroup>
+      <Card className="service-cards">
+        <Card.Img
+          variant="top"
+          className="service--icons car m-auto"
+          src={car}
+          alt="Automobile keys service"
+        />
 
-            <div class="col">
-                <div class="card h-100">
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <i class="fa-solid fa-building card-img-top card-logo"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Comercial</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-                    </div>
-                </div>
-            </div>
-         </div>
-    );
+        <Card.Body>
+          <Card.Title className="m-auto text-center">Automotive</Card.Title>
+          <Card.Text></Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card className="service-cards">
+        <Card.Img
+          variant="top"
+          className="service--icons m-auto"
+          src={house}
+          alt="residential keys service"
+        />
+
+        <Card.Body>
+          <Card.Title className="m-auto text-center">Residential</Card.Title>
+          <Card.Text></Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card className="service-cards">
+        <Card.Img
+          variant="top"
+          className="service--icons m-auto"
+          src={building}
+          alt="commercial keys service"
+        />
+
+        <Card.Body>
+          <Card.Title className="m-auto text-center">Commercial</Card.Title>
+          <Card.Text></Card.Text>
+        </Card.Body>
+      </Card>
+    </CardGroup>
+  );
 }
