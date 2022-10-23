@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Locksmith/static/css/main.4162045c.css",
+    "main.css": "/Locksmith/static/css/main.1d2180f3.css",
     "main.js": "/Locksmith/static/js/main.18bcc44b.js",
     "static/media/service.png": "/Locksmith/static/media/service.08fbd9264f89afd1b9ef.png",
     "static/media/emergency.png": "/Locksmith/static/media/emergency.3eac9a037d605fedaff3.png",
@@ -12,11 +12,11 @@
     "static/media/house.svg": "/Locksmith/static/media/house.3a550e9f65011424e8101cd9662e4a39.svg",
     "index.html": "/Locksmith/index.html",
     "static/media/car-solid.svg": "/Locksmith/static/media/car-solid.c521bd9cb3805e6f62a123d4d5043fdc.svg",
-    "main.4162045c.css.map": "/Locksmith/static/css/main.4162045c.css.map",
+    "main.1d2180f3.css.map": "/Locksmith/static/css/main.1d2180f3.css.map",
     "main.18bcc44b.js.map": "/Locksmith/static/js/main.18bcc44b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4162045c.css",
+    "static/css/main.1d2180f3.css",
     "static/js/main.18bcc44b.js"
   ]
 }
