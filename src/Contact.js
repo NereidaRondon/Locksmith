@@ -5,12 +5,13 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 export default function Contact() {
   return (
     <div className="contact-div">
-      <Form name="contact" method="POST" data-netlify="true">
-        {/* <input
+      <Form name="contact" method="POST" data-netlify="true" netlify>
+        <input type="hidden" name="form-name" value="contact" />
+        <input
           type="hidden"
           name="subject"
           value="Locksmith services from ReyReysLocksmith.netlify.app"
-        /> */}
+        />
         <h2 className="text-center">Contact Us</h2>
 
         {/* FIRST AND LAST */}
