@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Locksmith/static/css/main.4162045c.css",
+    "main.js": "/Locksmith/static/js/main.4f321f12.js",
+    "static/media/service.png": "/Locksmith/static/media/service.08fbd9264f89afd1b9ef.png",
+    "static/media/emergency.png": "/Locksmith/static/media/emergency.3eac9a037d605fedaff3.png",
+    "static/media/keys.png": "/Locksmith/static/media/keys.29c3fac003851e5f086e.png",
+    "static/media/logo.png": "/Locksmith/static/media/logo.471f9cb85fa3dfd7b0ff.png",
+    "static/media/van.png": "/Locksmith/static/media/van.2d6df48eee8654a44288.png",
+    "static/media/door.jpg": "/Locksmith/static/media/door.12f01c657583768f2d55.jpg",
+    "static/media/building.svg": "/Locksmith/static/media/building.5d643c9d10e52368789f17db77ca2654.svg",
+    "static/media/house.svg": "/Locksmith/static/media/house.3a550e9f65011424e8101cd9662e4a39.svg",
+    "index.html": "/Locksmith/index.html",
+    "static/media/car-solid.svg": "/Locksmith/static/media/car-solid.c521bd9cb3805e6f62a123d4d5043fdc.svg",
+    "main.4162045c.css.map": "/Locksmith/static/css/main.4162045c.css.map",
+    "main.4f321f12.js.map": "/Locksmith/static/js/main.4f321f12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4162045c.css",
+    "static/js/main.4f321f12.js"
+  ]
+}
