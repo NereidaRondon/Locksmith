@@ -5,10 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import logo from './images/logo.png';
-//import Services from './Services.js';
-//import App from './App.js';
-//import About from './About.js';
-//import Contact from './Contact.js';
 
 export default function TopNavBar() {
   return (

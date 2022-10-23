@@ -33,13 +33,13 @@ export default function About() {
             licensed trades-people who believe in good old-fashioned service.
           </p>
         </div>
-        <div className="about3 text-center">
+        {/* <div className="about3 text-center">
           <h5 className="about--title">Reynaldo Hernandez</h5>
           <p className="about--par">Owner and Operator</p>
           <br></br>
           <h5 className="about--title">reyreylocksmith@gmail.com</h5>
           <h5 className="about--title">(239)691-6019</h5>
-        </div>
+        </div> */}
       </div>
     </>
   );
