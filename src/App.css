@@ -8,8 +8,8 @@
 #services,
 #contact,
 #about {
-  padding-top: 130px;
-  margin-top: -130px;
+  padding-top: 160px;
+  margin-top: -160px;
 }
 .contact-div {
   background-color: #99c4e4;
@@ -26,7 +26,7 @@
 }
 @media only screen and (max-width: 400px) {
   .contact-div {
-    padding: 1rem 0.25rem;
+    padding: 1.5rem 0.25rem;
   }
 }
 /* ------------------------------ */
@@ -111,7 +111,7 @@ body {
 .nav--links {
   font-family: 'Goldman', 'Kanit', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   -webkit-text-stroke: 1.5px rgb(2, 47, 93);
   color: rgb(255, 217, 0);
   text-shadow: 3px 2px 3px rgb(0, 0, 0);
@@ -339,11 +339,12 @@ ul > li {
   grid-row: 1 / 2;
   justify-self: center;
   align-self: center;
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.8));
 }
 .service-cards {
   border: 1px solid #022f5d;
   background-color: #a7a6a6;
-  filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.6));
 }
 .service--icons {
   width: 150px;
@@ -452,9 +453,7 @@ ul > li {
   margin-bottom: 0;
   font-family: 'Goldman', 'Kanit', sans-serif;
   font-weight: 700;
-  -webkit-text-stroke: 1.5px #022f5d;
-  color: rgb(255, 217, 0);
-  text-shadow: 3px 2px 2px black;
+  color: rgb(2, 47, 93);
 }
 .about--par {
   margin: 0;
