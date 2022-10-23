@@ -90,9 +90,9 @@ body {
   font-family: 'Goldman', 'Kanit', sans-serif;
   font-weight: 700;
   font-size: 28px;
-  -webkit-text-stroke: 1px #000000;
+  -webkit-text-stroke: 1px rgb(2, 47, 93));
   color: rgb(255, 217, 0);
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
 .sticky {
   position: sticky;
@@ -100,7 +100,7 @@ body {
   height: 80px;
   margin: 0 auto;
   padding: 0;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
   z-index: 11;
 }
 .nav-links--container {
@@ -117,9 +117,9 @@ body {
   font-family: 'Goldman', 'Kanit', sans-serif;
   font-weight: 700;
   font-size: 20px;
-  -webkit-text-stroke: 1.5px rgb(2, 47, 93);
+  -webkit-text-stroke: 1px rgb(2, 37, 71);
   color: rgb(255, 217, 0);
-  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, .8);
   justify-content: center !important;
 }
 .logo {
@@ -144,7 +144,7 @@ body {
   .header--title {
     font-size: 25px;
     -webkit-text-stroke: 1px #022f5d;
-    text-shadow: 2px 1px 2px black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
   }
   .logo {
     width: 50px;
@@ -171,9 +171,9 @@ body {
   }
   .nav--links {
     font-size: 16px;
-    -webkit-text-stroke: 1px rgb(2, 47, 93);
+    -webkit-text-stroke: 1px rgb(2, 37, 73);
     color: rgb(255, 217, 0);
-    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, .6);
   }
 }
 @media only screen and (max-width: 300px) {
@@ -268,7 +268,7 @@ body {
   .slide-font {
     font-size: 1rem;
     -webkit-text-stroke: 1px rgb(2, 47, 93);
-    text-shadow: 2px 1px 1px black;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, .6);
   }
   .slideshow {
     margin: 2.75rem auto 0 auto;
@@ -285,7 +285,7 @@ body {
   .slide-font {
     font-size: 14px;
     -webkit-text-stroke: 1px rgb(2, 47, 93);
-    text-shadow: 2px 1px 1px black;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, .6 );
   }
 }
 @media only screen and (max-width: 440px) {
@@ -459,7 +459,7 @@ ul > li {
   margin-bottom: 0;
   font-weight: 700;
   -webkit-text-stroke: 1px #022f5d;
-  text-shadow: 2px 1px 1px black;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, .6);
 }
 .about--title {
   margin-bottom: 0;
@@ -471,7 +471,7 @@ ul > li {
   margin-bottom: 0;
   font-weight: 700;
   -webkit-text-stroke: 1px #022f5d;
-  text-shadow: 2px 1px 1px black;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, .6);
 }
 .about--par {
   margin: 0;
