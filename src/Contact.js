@@ -5,7 +5,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 export default function Contact() {
   return (
     <div className="contact-div">
-      <Form name="contact" data-netlify="true" netlify>
+      <Form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <input
           type="hidden"
