@@ -1,3 +1,5 @@
+import { React } from 'react';
+
 import ServiceCards from './ServiceCards';
 import Image from 'react-bootstrap/Image';
 
@@ -5,6 +7,15 @@ import van from './images/van.png';
 import './App.css';
 
 export default function Services() {
+  // const [isMobile, setIsMobile] = useState(false);
+  // setIsMobile(window.innerWidth > 900);
+
+  // if (window.innerWidth > 900) {
+  //   setIsMobile(false);
+  // } else {
+  //   setIsMobile(true);
+  // }
+
   return (
     <>
       <h2 className="text-center">Services</h2>

@@ -1,3 +1,4 @@
+import { React } from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
@@ -7,8 +8,8 @@ import building from './images/building.svg';
 
 export default function ServiceCards() {
   return (
-    <CardGroup>
-      <Card className="service-cards">
+    <CardGroup className="card--container">
+      <Card className="service-cards ">
         <Card.Img
           variant="top"
           className="service--icons car m-auto"
@@ -31,7 +32,9 @@ export default function ServiceCards() {
         />
 
         <Card.Body>
-          <Card.Title className="m-auto text-center">Residential</Card.Title>
+          <Card.Title className="m-auto text-center card--title">
+            Residential
+          </Card.Title>
           <Card.Text></Card.Text>
         </Card.Body>
       </Card>
@@ -45,7 +48,9 @@ export default function ServiceCards() {
         />
 
         <Card.Body>
-          <Card.Title className="m-auto text-center">Commercial</Card.Title>
+          <Card.Title className="m-auto text-center card--title">
+            Commercial
+          </Card.Title>
           <Card.Text></Card.Text>
         </Card.Body>
       </Card>
